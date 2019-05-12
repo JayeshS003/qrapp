@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QrCodeAttendence</string>
+    <string name="scan">Scan</string>
+    <string name="student">Student</string>
+    <string name="welcome">Welcome</string>
+    <string name="qrCodeScanner">QrCode Scanner</string>
+    <string name="about">About</string>
+    <string name="generate_barcode">Generate Barcode</string>
+    <string name="register_attendence">Register Attendance</string>
+    <string name="daily_attendence">Daily Attendance</string>
+    <string name="monthly_attendence">Monthly Attendance</string>
+    <string name="logout">Logout</string>
+    <string name="nav_description">Navigation Header for User Profile</string>
+    <string name="generate_barcode_text">generate barcode</string>
+
+</resources>

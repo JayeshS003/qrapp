@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:padding="20sp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#41a694"
+        android:layout_gravity="center">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryDark">
+
+
+        <TextView
+                android:padding="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="TEACHER"
+                android:textAlignment="center"
+                android:textColorHint="#f9ffff"
+                android:textSize="30sp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Welcome, Your subject is:"
+                android:textAlignment="center"
+                android:textColorHint="#f9ffff"
+                android:textSize="20sp"/>
+        <Spinner
+                android:id="@+id/subject"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="#F7FFEC"
+                android:layout_marginBottom="10sp"/>
+        <TextView
+                android:id="@+id/dateTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:hint="Select Date"
+                android:textAlignment="center"
+                android:textColorHint="#f9ffff"/>
+        <Button
+                android:padding="19sp"
+                android:id="@+id/pickDateBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D66501"
+                android:hint="ENTER  DATE"
+                android:textSize="20sp"
+                android:textColorHint="#f9ffff"
+                android:layout_marginBottom="50sp"
+                android:layout_marginStart="30sp"
+                android:layout_marginEnd="30sp"/>
+        <Button
+                android:padding="20sp"
+                android:background="#D66501"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/take_attendance"
+                android:text="TAKE ATTENDANCE"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textColor="#f9ffff"
+                android:layout_marginBottom="15sp"
+                android:layout_marginStart="30sp"
+                android:layout_marginEnd="30sp"/>
+        <Button
+                android:padding="20sp"
+                android:background="#D66501"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/today_attendance"
+                android:text="VIEW TODAY'S ATTENDANCE"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textColor="#f9ffff"
+                android:layout_marginBottom="15sp"
+                android:layout_marginStart="30sp"
+                android:layout_marginEnd="30sp"/>
+        <Button
+                android:padding="20sp"
+                android:background="#D66501"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_attendance"
+                android:text="CHECK ATTENDANCE"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textColor="#f9ffff"
+                android:layout_marginBottom="15sp"
+                android:layout_marginStart="30sp"
+                android:layout_marginEnd="30sp"/>
+        <Button
+                android:padding="20sp"
+                android:background="#D66501"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnLogout"
+                android:hint="LOGOUT"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textColorHint="#f9ffff"
+                android:layout_marginStart="30sp"
+                android:layout_marginEnd="30sp"/>
+    </LinearLayout>
+</LinearLayout>

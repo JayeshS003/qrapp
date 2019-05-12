@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:padding="20sp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#41a694"
+        android:layout_gravity="center">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryDark">
+        <TextView
+                android:padding="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="View your attendance"
+                android:textAlignment="center"
+                android:textColorHint="#f9ffff"
+                android:textSize="30sp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.projecttest1">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".StudentAttendanceActivity">
+        </activity>
+        <activity android:name=".RegisterAttendanceActivity">
+        </activity>
+        <activity android:name=".TodayAttendanceActivity">
+        </activity>
+        <activity android:name=".TakeAttendanceActivity">
+        </activity>
+        <activity android:name=".ViewTeacherActivity">
+        </activity>
+        <activity android:name=".AddSubjectActivity">
+        </activity>
+        <activity android:name=".AddCourseActivity">
+        </activity>
+        <activity android:name=".ViewAttendanceActivity">
+        </activity>
+        <activity android:name=".ViewStudentActivity">
+        </activity>
+        <activity android:name=".AddStudentActivity">
+        </activity>
+        <activity android:name=".AddTeacherActivity">
+        </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".StudentActivity">
+        </activity>
+        <activity android:name=".TeacherActivity">
+        </activity>
+        <activity android:name=".AdminActivity">
+        </activity>
+        <activity android:name=".QrCodeScannerActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".GenerateBarCode"
+                  android:label="@string/app_name"></activity>
+        <activity
+                android:name=".MainActivity"
+                android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+</manifest>
