@@ -13,4 +13,10 @@
     <string name="nav_description">Navigation Header for User Profile</string>
     <string name="generate_barcode_text">generate barcode</string>
 
+    <string-array name="login_arrays">
+        <item>Admin</item>
+        <item>Teacher</item>
+        <item>Student</item>
+    </string-array>
+
 </resources>

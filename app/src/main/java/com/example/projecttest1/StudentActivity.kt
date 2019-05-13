@@ -111,12 +111,6 @@ class StudentActivity : AppCompatActivity() {
                 startActivity(intent)
                 return true
             }
-            R.id.GenerateBarCode -> {
-                Toast.makeText(this@StudentActivity, "Generate Barcode", Toast.LENGTH_LONG).show()
-                val intent = Intent(this, GenerateBarCode::class.java)
-                startActivity(intent)
-                return true
-            }
             R.id.menuLogout -> {
                 Toast.makeText(this, "You Clicked Logout", Toast.LENGTH_LONG).show()
                 return true

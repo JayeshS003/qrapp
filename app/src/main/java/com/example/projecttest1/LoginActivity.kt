@@ -51,8 +51,8 @@ class LoginActivity : AppCompatActivity() {
             //admin login
             if (userrole == "ADMIN") {
 
-                val user_name = username.text.toString()
-                val pass_word = password.text.toString()
+                val user_name = username.text.toString().trim()
+                val pass_word = password.text.toString().trim()
 
                 if (TextUtils.isEmpty(user_name)) {
                     username.error = "Invalid User Name"

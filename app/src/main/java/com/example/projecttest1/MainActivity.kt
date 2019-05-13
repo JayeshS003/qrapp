@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
                 iv_logo.visibility = View.GONE
                 startActivity(Intent(this,LoginActivity::class.java))
                 finish()
-            },500)
-        },2500)
+            },300)
+        },2000)
     }
 }

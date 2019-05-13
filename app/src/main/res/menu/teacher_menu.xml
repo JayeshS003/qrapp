@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/register_attendence"
+          android:title="Take Attendance"/>
+    <item android:id="@+id/daily_attendence"
+          android:title="View Today's Attendance"/>
+    <item android:id="@+id/monthly_attendence"
+          android:title="Check Attendance"/>
+    <item android:id="@+id/logout"
+          android:title="@string/logout"/>
+</menu>

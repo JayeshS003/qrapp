@@ -24,6 +24,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Student Page application theme. -->
+    <style name="teacherTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
     <style name="HeaderBar">
         <item name="android:background">#303F9F</item>
     </style>

@@ -6,10 +6,6 @@
             android:title="@string/scan"/>
 
     <item
-            android:id="@+id/GenerateBarCode"
-            android:title="@string/generate_barcode"/>
-
-    <item
             android:id="@+id/menuLogout"
             android:title="@string/logout"/>
 
